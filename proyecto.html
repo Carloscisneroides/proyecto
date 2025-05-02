@@ -14,22 +14,22 @@
     <nav>
         <ul>
             <li>
-                <a href="#" class="menu-item">
+                <a href="#nosotros" class="menu-item">
                     <img src="media/corazon.svg" alt="Icono corazón" class="icono"> NOSOTROS
                 </a>
             </li>
             <li>
-                <a href="#" class="menu-item">
+                <a href="#galeria" class="menu-item">
                     <img src="media/lucero.svg" alt="Icono diamante" class="icono"> GALERÍA
                 </a>
             </li>
             <li>
-                <a href="#" class="menu-item">
+                <a href="#precios" class="menu-item">
                     <img src="media/estrellita.svg" alt="Icono estrella rosa" class="icono"> PRECIOS
                 </a>
             </li>
             <li>
-                <a href="#" class="menu-item">
+                <a href="#contacto" class="menu-item">
                     <img src="media/azulito.svg" alt="Icono estrella azul" class="icono"> CONTACTO
                 </a>
             </li>
@@ -57,7 +57,7 @@
     </div>
     
     <!-- Nosotros -->
-    <section class="nosotros">
+    <section id="nosotros" class="nosotros">
         <div class="columna-izquierda">
           <p class="etiqueta-superior">LOVERS OF LOVE</p>
           <div class="foto-marco">
@@ -88,7 +88,7 @@
         </div>
       </section>
    
-      <section class="galeria">
+      <section id="galeria" class="galeria">
         <div class="fila">
             <div class="foto1">               
                 <img src="media/roja.jpeg" alt="foto1">
@@ -125,22 +125,74 @@
       </section>
       
   <!-- Precios -->
-  <section id="precios" class="precios">
-    <h2>CONSTRUYE TU PROPIO PAQUETE</h2>
-    <div class="contenedor-precio">
-      <div class="bloque">Horas Totales: <span>3</span></div>
-      <div class="bloque">Sesión de Compromiso: <span>No</span></div>
-      <div class="bloque">Video de la Ceremonia: <span>No</span></div>
-      <div class="bloque">Solo Digital / Film + Digital</div>
-      <div class="bloque">Cabina de Fotos: <span>No</span></div>
-      <div class="bloque mapa">
-        <p>Seleccione una región:</p>
-        <img src="img/mapa.png" alt="Mapa">
+  <section id="precios" class="seccion-precios">
+    <div class="contenedor-paquete">
+  
+      <div class="bloque bloque-titulo">
+        <h2>CONSTRUYE TU PROPIO PAQUETE</h2>
+        <p class="etiqueta">HORAS TOTALES</p>
+        <div class="contenedor-horas">
+          <div class="selector-disco">
+             <img src="media/disco.svg" alt="disco"> 
+          </div>
+          <span class="numero-horas">3</span>
+          <div class="barra-progreso"></div>
+        </div>
       </div>
-      <div class="bloque total">$1,938</div>
+  
+      <div class="bloque bloque-compromiso">
+        <p class="etiqueta">SESIÓN DE COMPROMISO</p>
+        <div class="interruptor-compromiso">
+           <img src="media/carita.svg" alt="carita" class="cari">
+        </div>
+        <span>NO</span>
+      </div>
+  
+      <div class="bloque bloque-video">
+        <p class="etiqueta">VIDEO DE LA CEREMONIA</p>
+        <div class="interruptor-video"></div>
+        <span>NO</span>
+      </div>
+  
+      <div class="bloque bloque-formato">
+        <p class="etiqueta">SOLO DIGITAL</p>
+        <img src="media/digital.svg" alt="Formato" class="icono-formato"> 
+        <span>FILM + DIGITAL</span>
+      </div>
+  
+      <div class="bloque bloque-cabina">
+        <p class="etiqueta">CABINA DE FOTOS</p>
+        <div class="opciones-cabina">
+          <div class="opcion-cabina"></div>
+          <div class="opcion-cabina activa"></div>
+          <div class="opcion-cabina"></div>
+        </div>
+        <p class="texto-horas">HORAS</p>
+      </div>
+  
+      <div class="bloque bloque-mapa">
+        <p class="etiqueta">LUGAR</p>
+        <p class="texto-region">Seleccione una región</p>
+         <img src="media/mapa.svg" alt="Mapa de EE. UU." class="imagen-mapa"> 
+      </div>
+  
+      <div class="bloque bloque-total">
+       
+        <div class="bloque bloque-envio">
+          <div class="etiqueta-total">
+            <p class="etiqueta">TOTAL</p>
+            <span class="valor-total">$1,938</span>
+          </div>
+          <p class="etiqueta">ENVÍA MI PAQUETE</p>
+          <input type="email" placeholder="email" class="campo-correo">
+          <button class="boton-enviar">ENVIAR</button>
+        </div>
+      </div>
+  
+      
+  
     </div>
   </section>
-
   <!-- Contacto -->
   <section id="contacto" class="contacto">
     <h2>CONSULTA TU FECHA</h2>
