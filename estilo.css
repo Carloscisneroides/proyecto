@@ -643,13 +643,14 @@ nav ul li a:hover {
   border-radius: 5px;
   margin-bottom: 1rem;
   width: 300px;
+
   position: relative;
   top: 30px;
   left: 90px;
 }
 
 .boton-enviar {
-  background-color: #ff4d4d;
+  background-color: #cf2323;
   color: white;
   border: none;
   border-radius: 50%;
@@ -676,17 +677,75 @@ nav ul li a:hover {
   padding: 40px 20px;
   position: relative;
   bottom: 1400px;
+  height: 1410px;
   text-align: center;
   margin-top: -40px
 }
+.matacho1 {
+  height: 450px;
+  position: relative;
+  bottom: 120px;
+  left: 80px;
+  z-index: 2;
 
+}
+.matacho2 {
+  height: 140px;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+  z-index: 2;
+
+
+}
+.matacho6{
+  width: 100px;
+  position: relative;
+  bottom: 560px;
+  right: 630px;
+}
+.matacho7{
+  width: 80px;
+  position: relative;
+  bottom:310px;
+  right: 589px;
+}
+.matacho8{
+  width: 100px;
+  position: relative;
+  bottom: 516px;
+  right: 700px;
+  
+}
+.matacho9{
+  height:80px;
+  position: relative;
+  bottom: 239px;
+ right: 780px;
+transform: rotate(-6deg);
+}
+.matacho11{
+  position: relative;
+  bottom: 599px;
+  right: 199px;
+}
+.matacho12{
+  position: relative;
+  bottom: 700px;
+  right: 640px;
+ 
+  height: 100px;
+}
 .contacto h2 {
   color: #0066ff;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  position: relative;
+  top: 300px;
+  left: 130px;
 }
 
 .contacto p {
@@ -705,12 +764,13 @@ nav ul li a:hover {
 
 .contacto input[type="date"] {
   padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
   font-size: 1rem;
   width: 250px;
-  background-color: white;
   color: #333;
+  position: relative;
+  top: 300px;
+  left:300px
+
 }
 
 
@@ -721,15 +781,13 @@ nav ul li a:hover {
   justify-content: center;
   gap: 20px;
   margin-top: 15px;
-}
-
-.redes a {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.redes a:hover {
-  transform: scale(1.2);
+  border: #000 solid 1px;
+  background-color: white;
+  width: 500px;
+  justify-content: flex-end;
+  position: relative;
+  left: 800px;
+  border-radius: 20px;
 }
 
 .redes img {
@@ -738,7 +796,7 @@ nav ul li a:hover {
   border-radius: 50%;
   border: 2px solid white;
   padding: 5px;
-  background-color: #eaeaea;
+  background-color: pink;
 }
 
 
